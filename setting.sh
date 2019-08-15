@@ -1,3 +1,11 @@
+sudo apt-get install vim
+sudo apt-get install python3
+sudo apt-get install python3-pip
+
+alias python=python3
+alias py=python3
+alias pip=pip3
+
 # vim 
 if [ ! -a ~/.vimrc ]; then
     cp vimrc ~/.vimrc
